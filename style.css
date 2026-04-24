@@ -274,8 +274,8 @@ input, textarea {
   }
 
   .footer-links a {
-    flex-direction: column;
-    padding: 4px 8px;
+    flex-direction: row;
+    padding: 4px 6px;
     font-size: 0.9rem;
   }
 }
