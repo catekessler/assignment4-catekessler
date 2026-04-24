@@ -267,7 +267,7 @@ input, textarea {
 @media (max-width: 768px) {
 
   footer section {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     gap: 1rem;
