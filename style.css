@@ -119,10 +119,16 @@ footer {
 
 .footer-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     list-style: none;
     margin-left: auto;
+    justify-content: center;
     padding: 10px;
+}
+
+.footer h4 {
+  flex-shrink: 0;
 }
 
 /* Navigation styles */
@@ -255,5 +261,17 @@ input, textarea {
     padding: 14px 20px;
     border-radius: 0;
   }
+}
+
+/* Responsive design for footer */
+@media (max-width: 768px) {
+
+  footer section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
 }
 
