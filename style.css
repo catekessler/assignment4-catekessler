@@ -270,12 +270,13 @@ input, textarea {
     flex-direction: row;
     align-items: center;
     text-align: center;
+    justify-content: space-between;
     gap: 1rem;
   }
 
   .footer-links a {
     flex-direction: row;
-    padding: 4px 6px;
+    padding: 4px 8px;
     font-size: 0.9rem;
   }
 }
